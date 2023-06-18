@@ -1,0 +1,200 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(16, 15, 15);
+    color: white;
+}
+nav{
+   
+    display: flex;
+  
+    justify-content:space-around ;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(26, 25, 25);
+}
+
+nav .myImage1{
+    width: 50px;
+    border-radius: 50px;
+    
+}
+
+.myImage{
+    margin-right: 15px;
+}
+
+.imageAndName{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 140px 0;
+    margin-left: 100px;
+   
+}
+.firstSection > div{
+    width: 40%;
+}
+.leftSection{
+    
+    font-size: 3rem;
+}
+.leftSection button{
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(26, 25, 25);
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+    
+    
+}
+.gitHub{
+    margin-left: 10px;
+    
+}
+.resume a{
+  text-decoration:none;
+  color: white;
+}
+.gitHub a{
+  text-decoration:none;
+  color: white;
+}
+.LinkedIn a{
+  text-decoration:none;
+  color: white;
+}
+.gitHub:hover{
+background-color: black;
+border:black;
+cursor: pointer;
+
+}
+.resume:hover{
+    background-color: black;
+    cursor: pointer;
+    border: black;
+}
+.LinkedIn:hover{
+    background-color: black;
+    cursor: pointer;
+    border: black;
+}
+
+
+.rightSection div{
+    width: 10%;
+}
+.rightSection img{
+    width: 50%;
+}
+.colour{
+        color: rgb(167, 164, 164);
+}
+#element{
+    color:rgb(167, 164, 164) ;
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 400px;
+}
+.textBlack{
+    color: white;
+}
+main hr{
+    border: 0;
+    background-color: rgb(167, 164, 164);
+    height: 1.2px;
+    margin:60px 48px ;
+}
+.secondSection h1{
+        font-size: 1.6rem;
+}
+.secondSection .box{
+    background-color: rgb(167, 164, 164) ;
+
+    width: 80vw;
+    height: 2px;
+    margin: 100px 0;
+    display: flex;
+    
+}
+.secondSection .vertical{
+    height: 80px;
+    width: 1px;
+    background-color:  rgb(167, 164, 164);
+    margin: 0 150px ;
+    
+   
+   
+}
+
+.image{
+    position: relative;
+    width: 60px;
+    left: -60px;
+    margin-top: -100px;
+    padding: 30px;
+
+}
+
+.verticalTitle{
+    position: relative;
+    top: 80px;
+    left: -70px;
+    width: 200px;
+}
+
+.footer{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+    background-color: rgb(26, 25, 25);
+    height: 100px;
+    margin: 23px 122px;
+}
+
+
+.textCenter{
+    text-align: center;
+    color: rgb(167, 164, 164);
+}
+
+.instaLink{
+    text-decoration: none;
+    color: white;
+}
+
+.twitterLink{
+    text-decoration: none;
+    color: white;
+}
+
+
